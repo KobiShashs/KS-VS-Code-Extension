@@ -1,6 +1,9 @@
 # Change Log
 All notable changes to the "ksSnippets" extention will be documented in this file.
-
+## [0.0.7]
+- UTF Support
+## [0.0.6]
+- Chnage log added
 ## [0.0.5]
 - Documentation added
 
