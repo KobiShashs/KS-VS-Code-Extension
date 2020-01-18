@@ -1,0 +1,18 @@
+<img *ngIf="" src="/assets/">
+ks-html-table
+<div *ngIf="products">
+    <table>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Amount</th>
+        </tr>
+        <tr *ngFor="let p of products">
+            <td>{{p.id}}</td>
+            <td>{{p.name}}</td>
+            <td>{{p.price}}</td>
+            <td>{{p.amount}}</td>
+        </tr>
+    </table>
+</div>
