@@ -2,7 +2,7 @@
     "name": "vscode-ks-snippets",
     "displayName": "VScode KS Snippets",
     "description": "Snippets Boilerplate Visual Studio Code",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "KobiShasha",
     "author": {
         "name": "Kobi Shasha",
