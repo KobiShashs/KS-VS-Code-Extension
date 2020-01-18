@@ -2,20 +2,20 @@
     "name": "vscode-ks-snippets",
     "displayName": "VScode KS Snippets",
     "description": "Snippets Boilerplate Visual Studio Code",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "publisher": "KobiShasha",
     "author": {
         "name": "Kobi Shasha",
         "email": "kobi.shasha@gmail.com",
         "url": "https://kobishasha.com"
     },
-    "homepage": "https://https://github.com/KobiShashs/KS-VS-Code-Extension",
+    "homepage": "https://github.com/KobiShashs/KS-VS-Code-Extension",
     "repository": {
         "type": "git",
-        "url": "https://https://github.com/KobiShashs/KS-VS-Code-Extension"
+        "url": "https://github.com/KobiShashs/KS-VS-Code-Extension.git"
     },
     "bugs": {
-        "url": "https://https://github.com/KobiShashs/KS-VS-Code-Extension/issues"
+        "url": "https://github.com/KobiShashs/KS-VS-Code-Extension.git/issues"
     },
     "engines": {
         "vscode": "^1.40.0"
