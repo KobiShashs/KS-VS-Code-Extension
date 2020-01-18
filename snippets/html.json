@@ -1,0 +1,9 @@
+{
+    "html": {
+        "prefix": "b-html",
+        "body": [
+            "Nooooo('${1:user@email.com}', '${2:password}')"
+        ],
+        "description": "Nooooooo"
+    }
+}

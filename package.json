@@ -1,0 +1,49 @@
+{
+    "name": "vscode-snippets-boilerplate",
+    "displayName": "VScode Snippets Boilerplate",
+    "description": "Snippets Boilerplate Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "nioperas06",
+    "author": {
+        "name": "Your Name",
+        "email": "example@mail.com",
+        "url": "https://exmaple.com"
+    },
+    "homepage": "https://github.com/nioperas06/vscode-snippets-boilerplate",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nioperas06/vscode-snippets-boilerplate"
+    },
+    "bugs": {
+        "url": "https://github.com/nioperas06/vscode-snippets-boilerplate/issues"
+    },
+    "engines": {
+        "vscode": "^1.40.0"
+    },
+    "keywords": [
+        "vscode",
+        "snippet",
+        "boilerplate"
+    ],
+    "icon": "images/icon.png",
+    "galleryBanner": {
+        "color": "#f66f62",
+        "theme": "dark"
+    },
+    "categories": [
+        "Snippets",
+        "Other"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/html.json"
+            }
+        ]
+    },
+    "scripts": {
+        "package": "npx vsce package",
+        "publish": "npx vsce publish"
+    }
+}
