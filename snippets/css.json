@@ -1,0 +1,115 @@
+{
+	"The ultimate start css setup": {
+		"prefix": "ks-css-main css",
+		"body": ["html,body{",
+			"height: 100%;",
+			"margin: 0;",
+			"padding: 0;",
+			"position:fixed;",
+			"top: 0px;",
+			"bottom: 0px;",
+			"left: 0px;",
+			"right: 0px;",
+		"}"
+		],
+		"description": "primary setup for styles.css file"
+	}, "Table css setup 1": {
+			"prefix": "ks-css-table-1",
+			"body": [
+				"table{",
+				"margin: auto;",
+			"}",
+			
+			"table, th,td{",
+				"border: 1px solid blue;",
+			"}",
+			
+			"tr:nth-child(even){",
+				"background-color: lightblue;",
+			"}",
+			
+			"tr:nth-child(odd){",
+				"background-color: lightcoral;",
+			"}",
+			
+			"tr:first-child{",
+				"background-color: gray;",
+			"}",
+			
+			"div{",
+				"height: 80%;",
+				"overflow: auto;",
+			"}"
+		],
+			"description": "primary setup for custom css table"
+		
+	},
+	"Table css setup 2": {
+		"prefix": "ks-css-table-2",
+		"body": [
+			"table{",
+			"margin: auto;",
+		"}",
+		
+		"table, th,td{",
+			"border: 1px solid lightseagreen;",
+		"}",
+		
+		"tr:nth-child(even){",
+			"background-color: lightcyan;",
+		"}",
+		
+		"tr:nth-child(odd){",
+			"background-color: lightskyblue;",
+		"}",
+		
+		"tr:first-child{",
+			"background-color: gray;",
+		"}",
+		
+		"div{",
+			"height: 80%;",
+			"overflow: auto;",
+		"}"
+	],
+		"description": "primary setup for custom css table"
+	
+},
+	"Custom Grid layout": {
+		"prefix": "ks-css-app.css",
+		"body": [
+			"section{",
+				"height: 100%;",
+				"border: 2px solid black;",
+				"background-color: pink;",
+				"text-align: center;",
+				"box-sizing: border-box;",
+				"display: grid;",
+				"grid-template-rows: 15% 70% 15%;",
+				"grid-template-columns: repeat(12,1fr);",
+			  "}",
+			  
+			  "header{",
+				"grid-column: span 12;",
+				"border: 2px solid black;",
+			  "}",
+			  
+			 " aside{",
+				"grid-column: span 2;",
+				"border: 2px solid black;",
+			  "}",
+			  
+			  "main{",
+				"grid-column: span 10;",
+				"border: 2px solid black;",
+			  "}",
+			  
+			  "footer{",
+				"grid-column: span 12;",
+				"border: 2px solid black;",
+			  "}"
+		],
+		"description": "the main (app) component css"
+	}
+
+}

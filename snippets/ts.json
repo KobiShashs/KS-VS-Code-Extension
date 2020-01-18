@@ -1,0 +1,160 @@
+
+{
+    "productClass": {
+        "prefix": "ks-products-class",
+        "body": [
+            "export class Product{" ,
+                "\tpublic constructor(",
+                    "\t\tpublic id:number,",
+                    "\t\tpublic name:string,",
+                    "\t\tpublic price:number,",
+                    "\t\tpublic amount:number){",
+                "\t}",
+            "}"
+        ],
+        "description": "TS Product class"
+    },
+    "productGetDummySynchronous": {
+        "prefix": "ks-products-getAllProductsSynchronous",
+        "body":[
+            "public getAllProducts(): Product[]{",
+                "\tconst arr: Product[] = [];",
+                "\tarr.push(new Product(1, 'Pizza + Drink + Icecream', 69.9, 100));",
+                "\tarr.push(new Product(2, '2 Litter buttle ', 4.99, 100));",
+                "\tarr.push(new Product(3, 'Mambo Jambo Coffee ', 8.99, 50));",
+                "\treturn arr;",
+             "}"
+        ],
+        "description": "get all product from a remote server synchronously"
+    },
+    
+    "productGetDummyAsynchronousUsingCallback": {
+        "prefix": "ks-products-getAllProductsAsynchronousUsingCallback",
+        "body": [
+            "public getAllProductsAsynce(successCallbabk, failureCallback): void {",
+                "setTimeout(() => {",
+                  "try {",
+                    "const arr: Product[] = [];",
+                    "arr.push(new Product(1, 'Pizza + Drink + Icecream', 69.9, 100));",
+                    "arr.push(new Product(2, '2 Litter buttle ', 4.99, 100));",
+                    "arr.push(new Product(3, 'Mambo Jambo Coffee ', 8.99, 50));",
+                    "successCallbabk(arr);",
+                  "} catch (err) {",
+                    "failureCallback(err);",
+                  "}",
+                "}, 3000);",
+              "}"
+        ],
+        "description": "get all product from a remote server *asynchronously* using callback"
+    },
+    "productGetDummyAsynchronousUsingPromise": {
+        "prefix": "ks-products-getAllProductsAsynchronousUsingPromise",
+        "body": [
+            "public getAllProductsAsync2(): Promise<Product[]> {",
+
+            "return new Promise((resolve, reject) => {",
+              "setTimeout(() => {",
+                "try {",
+                  "const arr: Product[] = [];",
+                  "arr.push(new Product(1, 'Pizza + Drink + Icecream', 69.9, 100));",
+                  "arr.push(new Product(2, '2 Litter buttle ', 4.99, 100));",
+                  "arr.push(new Product(3, 'Mambo Jambo Coffee ', 8.99, 50));",
+                  "resolve(arr);",
+                "}",
+                "catch (err) {",
+                  "reject(err);",
+                "}",
+              "}, 3000);",
+            "});",
+          "}"
+        ],
+        "description": "get all product from a remote server *asynchronously* using promise"
+    },
+    "productGetDummyAsynchronousUsingObserver": {
+        "prefix": "ks-products-getAllProductsAsynchronousUsingObserver",
+        "body": [
+          "public getAllProductsAsync3(): Observable<Product[]> {",
+            "// tslint:disable-next-line: deprecation",
+            "return Observable.create(observe => {",
+              "setTimeout(() => {",
+                "try {",
+                  "const arr: Product[] = [];",
+                  "arr.push(new Product(1, 'Pizza + Drink + Icecream', 69.9, 100));",
+                  "arr.push(new Product(2, '2 Litter buttle ', 4.99, 100));",
+                  "arr.push(new Product(3, 'Mambo Jambo Coffee ', 8.99, 50));",
+                  "observe.next(arr);",
+                "} catch (err) {",
+                  "observe.error(err);",
+                "}",
+              "}, 3000);",
+            "});",
+          "}"
+          ],
+        "description": "get all product from a remote server *asynchronously* using observable"
+    },
+    "dummyArray": {
+      "prefix": "ks-products-dummy-array",
+      "body": [
+        "const arr: Product[] = [];",
+        "arr.push(new Product(1, 'Pizza + Drink + Icecream', 69.9, 100));",
+        "arr.push(new Product(2, '2 Litter buttle ', 4.99, 100));",
+        "arr.push(new Product(3, 'Mambo Jambo Coffee ', 8.99, 50));",
+        "return arr;"
+      ],
+      "description": "description"
+    },
+    "ServiceSynchronousCall": {
+      "prefix": "ks-service-synchronous-call",
+      "body": [
+       "// synchronous call",
+      "this.products = this.productsService.getAllProducts();"
+      ],
+      "description": "description"
+    },
+    "ServiceAynchronousCallUsingCallback": {
+      "prefix": "ks-service-asynchronous-call-using-callback",
+      "body": [
+          "// Asynchronous call using callback",
+    "this.productsService.getAllProductsAsync1((products) => {",
+      "this.products = products;",
+      "console.log('Success');",
+    "}, () => {",
+      "console.log('Falied');",
+      "//console.log(this.prooducts);//not allowed"
+      ],
+      "description": "description"
+    },
+    "ServiceAynchronousCallUsingPromise": {
+      "prefix": "ks-service-asynchronous-call-using-promise",
+      "body": [
+   "// Asynchronic call using promise",
+   "this.productsService.getAllProductsAsync2().then(products => {",
+    "this.products = products;",
+  "}).catch(err => {",
+    "alert('Error: ' + err);",
+  "});"
+      ],
+      "description": "description"
+    },
+    "ServiceAynchronousCallUsingObservable": {
+      "prefix": "ks-service-asynchronous-call-using-observable",
+      "body": [
+    "// Asynchronic call using obserbable",
+    "this.productsService.getAllProductsAsync3().subscribe(",
+    "products => {",
+      "this.products = products;",
+    "},",
+    "err => {",
+      "console.log(err);",
+    "});"
+      ],
+      "description": "description"
+    }
+    
+
+}
+
+
+
+
+

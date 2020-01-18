@@ -1,21 +1,21 @@
 {
-    "name": "vscode-snippets-boilerplate",
-    "displayName": "VScode Snippets Boilerplate",
+    "name": "vscode-ks-snippets",
+    "displayName": "VScode KS Snippets",
     "description": "Snippets Boilerplate Visual Studio Code",
-    "version": "0.0.1",
-    "publisher": "nioperas06",
+    "version": "0.0.2",
+    "publisher": "KobiShasha",
     "author": {
-        "name": "Your Name",
-        "email": "example@mail.com",
-        "url": "https://exmaple.com"
+        "name": "Kobi Shasha",
+        "email": "kobi.shasha@gmail.com",
+        "url": "https://kobishasha.com"
     },
-    "homepage": "https://github.com/nioperas06/vscode-snippets-boilerplate",
+    "homepage": "https://https://github.com/KobiShashs/KS-VS-Code-Extension",
     "repository": {
         "type": "git",
-        "url": "https://github.com/nioperas06/vscode-snippets-boilerplate"
+        "url": "https://https://github.com/KobiShashs/KS-VS-Code-Extension"
     },
     "bugs": {
-        "url": "https://github.com/nioperas06/vscode-snippets-boilerplate/issues"
+        "url": "https://https://github.com/KobiShashs/KS-VS-Code-Extension/issues"
     },
     "engines": {
         "vscode": "^1.40.0"
@@ -39,6 +39,14 @@
             {
                 "language": "html",
                 "path": "./snippets/html.json"
+            },
+            {
+                "language": "css",
+                "path": "./snippets/css.json"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/ts.json"
             }
         ]
     },

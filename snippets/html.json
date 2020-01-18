@@ -1,9 +1,44 @@
 {
-    "html": {
-        "prefix": "b-html",
-        "body": [
-            "Nooooo('${1:user@email.com}', '${2:password}')"
-        ],
-        "description": "Nooooooo"
-    }
+		"showLoading": {
+		"prefix": "ks-html-loading",
+		"body": [
+			"<img *ngIf=\"$1\" src=\"/assets/$2\" >"
+
+		],
+		"description": "show loading structural directive"
+		},
+		"showTable": {
+			"prefix": "ks-html-table",
+			"body": [
+				"<div *ngIf=\"products\">",
+    "<table>",
+        "<tr>",
+            "<th>Id</th>",
+            "<th>Name</th>",
+            "<th>Price</th>",
+            "<th>Amount</th>",
+        "</tr>",
+        "<tr *ngFor=\"let p of products\">",
+            "<td>{{p.id}}</td>",
+            "<td>{{p.name}}</td>",
+            "<td>{{p.price}}</td>",
+            "<td>{{p.amount}}</td>",
+        "</tr>",
+    "</table>",
+"</div>"
+
+	
+			],
+			"description": "show loading structural directive"
+			},
+			"822.8 Java full stack example": {
+				"prefix": "sbr-html-dummy-p",
+				"body": [
+					"<p>Hello from Shaked</p>",
+					"<span>Hi From Alex</span>"
+				],
+				"description": "writes simple p tag in html"
+			}
 }
+
+
