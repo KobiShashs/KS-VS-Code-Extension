@@ -1,6 +1,6 @@
 {
 	"The ultimate start css setup": {
-		"prefix": "ks-css-main css",
+		"prefix": "ks-css-main.css",
 		"body": ["html,body{",
 			"height: 100%;",
 			"margin: 0;",

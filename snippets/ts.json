@@ -1,7 +1,7 @@
 
 {
     "productClass": {
-        "prefix": "ks-products-class",
+        "prefix": "ks-class-Product",
         "body": [
             "export class Product{" ,
                 "\tpublic constructor(",
@@ -15,7 +15,7 @@
         "description": "TS Product class"
     },
     "productGetDummySynchronous": {
-        "prefix": "ks-products-getAllProductsSynchronous",
+        "prefix": "ks-remote-sync",
         "body":[
             "public getAllProducts(): Product[]{",
                 "\tconst arr: Product[] = [];",
@@ -29,9 +29,9 @@
     },
     
     "productGetDummyAsynchronousUsingCallback": {
-        "prefix": "ks-products-getAllProductsAsynchronousUsingCallback",
+        "prefix": "ks-remote-async-callback",
         "body": [
-            "public getAllProductsAsynce(successCallbabk, failureCallback): void {",
+            "public getAllProductsAsync(successCallbabk, failureCallback): void {",
                 "setTimeout(() => {",
                   "try {",
                     "const arr: Product[] = [];",
@@ -48,7 +48,7 @@
         "description": "get all product from a remote server *asynchronously* using callback"
     },
     "productGetDummyAsynchronousUsingPromise": {
-        "prefix": "ks-products-getAllProductsAsynchronousUsingPromise",
+        "prefix": "ks-remote-async-promise",
         "body": [
             "public getAllProductsAsync2(): Promise<Product[]> {",
 
@@ -71,7 +71,7 @@
         "description": "get all product from a remote server *asynchronously* using promise"
     },
     "productGetDummyAsynchronousUsingObserver": {
-        "prefix": "ks-products-getAllProductsAsynchronousUsingObserver",
+        "prefix": "ks-remote-async-observer",
         "body": [
           "public getAllProductsAsync3(): Observable<Product[]> {",
             "// tslint:disable-next-line: deprecation",
@@ -93,7 +93,7 @@
         "description": "get all product from a remote server *asynchronously* using observable"
     },
     "dummyArray": {
-      "prefix": "ks-products-dummy-array",
+      "prefix": "ks-dummy-array",
       "body": [
         "const arr: Product[] = [];",
         "arr.push(new Product(1, 'Pizza + Drink + Icecream', 69.9, 100));",
@@ -104,7 +104,7 @@
       "description": "description"
     },
     "ServiceSynchronousCall": {
-      "prefix": "ks-service-synchronous-call",
+      "prefix": "ks-service-sync",
       "body": [
        "// synchronous call",
       "this.products = this.productsService.getAllProducts();"
@@ -112,7 +112,7 @@
       "description": "description"
     },
     "ServiceAynchronousCallUsingCallback": {
-      "prefix": "ks-service-asynchronous-call-using-callback",
+      "prefix": "ks-service-async-callback",
       "body": [
           "// Asynchronous call using callback",
     "this.productsService.getAllProductsAsync1((products) => {",
@@ -125,7 +125,7 @@
       "description": "description"
     },
     "ServiceAynchronousCallUsingPromise": {
-      "prefix": "ks-service-asynchronous-call-using-promise",
+      "prefix": "ks-service-async-promise",
       "body": [
    "// Asynchronic call using promise",
    "this.productsService.getAllProductsAsync2().then(products => {",
@@ -137,7 +137,7 @@
       "description": "description"
     },
     "ServiceAynchronousCallUsingObservable": {
-      "prefix": "ks-service-asynchronous-call-using-observable",
+      "prefix": "ks-service-async-observable",
       "body": [
     "// Asynchronic call using obserbable",
     "this.productsService.getAllProductsAsync3().subscribe(",
