@@ -1,5 +1,8 @@
 # Change Log
 All notable changes to the "ksSnippets" extention will be documented in this file.
+## [0.1.0]
+- added contributing.md file
+- Changed package.json file
 ## [0.0.9]
 - Code refactor,Changed logo, update readme
 ## [0.0.8]

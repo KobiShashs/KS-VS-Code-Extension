@@ -1,8 +1,8 @@
 {
     "name": "vscode-ks-snippets",
-    "displayName": "VSCode Snippets by Kobi Shasha",
-    "description": "Snippets Boilerplate for Visual Studio Code",
-    "version": "0.0.9",
+    "displayName": "VSCode Snippets for Angular 8 by Kobi Shasha",
+    "description": "The Kobi Shahsa",
+    "version": "0.1.0",
     "publisher": "KobiShasha",
     "author": {
         "name": "Kobi Shasha",
@@ -14,6 +14,7 @@
         "type": "git",
         "url": "https://github.com/KobiShashs/KS-VS-Code-Extension.git"
     },
+    "license": "None",
     "bugs": {
         "url": "https://github.com/KobiShashs/KS-VS-Code-Extension.git/issues"
     },
