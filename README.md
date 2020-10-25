@@ -29,9 +29,6 @@ Alternatively, press `Ctrl`+`Space` (Windows, Linux) or `Cmd`+`Space` (macOS) to
 | `ks-service-async-callback`  | invoke remote GET reuest asynchronously using callback   |
 | `ks-service-async-observable`| invoke remote GET reuest asynchronously using observable |
 
-
-
-
 ### HTML Snippets
 
 | Snippet              | Purpose                                             |
@@ -47,6 +44,39 @@ Alternatively, press `Ctrl`+`Space` (Windows, Linux) or `Cmd`+`Space` (macOS) to
 | `ks-css-table-1`     | table css desing #1: lightblue & lightcoral         |
 | `ks-css-table-2`     | table css desing #1: lightcyan & lightskyblue       |
 | `ks-css-app.css`     | classic section within header, footer, main & aside |
+
+## Java Snippets
+
+| Snippet                      | Purpose                                                  |
+| ---------------------------- | -------------------------------------------------------- |
+| `ksj-RunTimeMethod`          | Method to check code run time                            |
+| `ksl-RunTimeCode`            | Code to use run time method                              |
+| `ksj-SingletonClass`         | Singleton class thread safe example                      |
+
+### Spring Snippets
+
+| Snippet                      | Purpose                                                  |
+| ---------------------------- | -------------------------------------------------------- |
+| `kss-SpringMain`             | Spring main class initialization                         |
+| `kss-UserTable`              | User table (bean class) initialization                   |
+| `kss-UserRepository`         | User repository class initialization                     |
+| `kss-UserService`            | User service class initialization                        |
+| `kss-UserController`         | User controller class initialization                     |
+| `kss-SwagerClass`            | Swager class initialization                              |
+
+### Pom.xml Snippets
+
+| Snippet                      | Purpose                                                  |
+| ---------------------------- | -------------------------------------------------------- |
+| `ksp-MySqlDependecie`        | MySql Dependecie Initialization                          |
+| `ksp-SwaggerDependecie`      | Swagger Dependecie Initialization                        |
+
+### Application.properties Snippets
+
+| Snippet                      | Purpose                                                  |
+| ---------------------------- | -------------------------------------------------------- |
+| `ksa-MySqlConfiguration`     | Application properties mysql configuration code          |
+
 ## Installation
 
 1. Install Visual Studio Code 1.41 or higher

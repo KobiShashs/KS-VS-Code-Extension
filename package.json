@@ -51,6 +51,14 @@
             {
                 "language": "typescript",
                 "path": "./snippets/ts.json"
+            },
+            {
+                "language": "java",
+                "path": "./snippets/java.json"
+            },
+            {
+                "language": "pom",
+                "path": "./snippets/pom.json"
             }
         ]
     },
