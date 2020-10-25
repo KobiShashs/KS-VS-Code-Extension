@@ -1,9 +1,11 @@
 # Change Log
-All notable changes to the "ksSnippets" extention will be documented in this file.
+All notable changes to the "ksSnippets" extension will be documented in this file.
+## [0.1.2]
+- Changed logo
 ## [0.1.1]
-- added Java & Spring Snippets
+- Added Java & Spring Snippets
 ## [0.1.0]
-- added contributing.md file
+- Added contributing.md file
 - Changed package.json file
 ## [0.0.9]
 - Code refactor,Changed logo, update readme
