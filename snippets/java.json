@@ -129,8 +129,8 @@
             "description": "Spring main class initialization"
           },
 
-          "Swager class initialization": {
-            "prefix": "kss-SwagerClass",
+          "Swagger class initialization": {
+            "prefix": "kss-SwaggerClass",
             "body": [
               "import org.springframework.context.annotation.Bean;",
               "import org.springframework.context.annotation.Configuration;",
@@ -155,7 +155,7 @@
               "}",
               "}"
             ],
-            "description": "Swager class initialization"
+            "description": "Swagger class initialization"
           },
 
           "User controller class initialization": {
