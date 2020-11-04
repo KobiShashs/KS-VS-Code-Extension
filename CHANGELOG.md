@@ -1,7 +1,7 @@
 # Change Log
 All notable changes to the "ksSnippets" extension will be documented in this file.
 ## [0.1.2]
-- Changed logo
+- Changed logo and Bug fixes
 ## [0.1.1]
 - Added Java & Spring Snippets
 ## [0.1.0]
