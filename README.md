@@ -62,7 +62,7 @@ Alternatively, press `Ctrl`+`Space` (Windows, Linux) or `Cmd`+`Space` (macOS) to
 | `kss-UserRepository`         | User repository class initialization                     |
 | `kss-UserService`            | User service class initialization                        |
 | `kss-UserController`         | User controller class initialization                     |
-| `kss-SwagerClass`            | Swager class initialization                              |
+| `kss-SwaggerClass`           | Swagger class initialization                             |
 
 ### Pom.xml Snippets
 
