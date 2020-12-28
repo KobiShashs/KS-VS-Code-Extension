@@ -149,6 +149,27 @@
     "});"
       ],
       "description": "description"
+    },
+
+    "TypeScript Alerts": {
+      "prefix": "ks-ts-alerts",
+      "body": [
+        "  // Put me inside export class nameOfTheClass",
+        "  isAlert = false;",
+        "",
+        "  showAlert(){",
+        "      if (this.isAlert == false){",
+        "        this.isAlert = true;",
+        "",
+        "      }",
+        "      else{",
+        "        this.isAlert = false;",
+        "",
+        "      }",
+        "  }",
+        ""
+      ],
+      "description": "TypeScript Alerts"
     }
     
 
