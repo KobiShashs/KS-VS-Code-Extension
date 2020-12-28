@@ -91,5 +91,5 @@ Alternatively, press `Ctrl`+`Space` (Windows, Linux) or `Cmd`+`Space` (macOS) to
 01. From the current project open terminal in visual studio code and run `npm install @ng-bootstrap/ng-bootstrap`
 02. From the current project open terminal in visual studio code and run `npm install bootstrap jquery`
 
-<!-- From the current project open terminal in visual studio code and run `npm install ngx-bootstrap` -->
-<!-- `npm install jquery`
+From the current project open terminal in visual studio code and run `npm install ngx-bootstrap`
+`npm install jquery`
