@@ -77,6 +77,21 @@ Alternatively, press `Ctrl`+`Space` (Windows, Linux) or `Cmd`+`Space` (macOS) to
 | ---------------------------- | -------------------------------------------------------- |
 | `ksa-MySqlConfiguration`     | Application properties mysql configuration code          |
 
+### Angular Snippets
+
+| Name               | Purpose                                              | Html                  | Css                       | TypeScript   |
+|--------------------|------------------------------------------------------|-----------------------|---------------------------|--------------|
+| Custom Alerts      | Four type of custome user alerts                     | ks-html-alerts        | ks-css-alerts             | ks-ts-alerts |
+| Cards              | Cards collection with image and details              | ks-html-cards         | ks-css-cards              |              |
+| Footer Full Length | Footer with animation and links                      | ks-html-footer-full   | ks-css-footer-full        |              |
+| Navbar Full Length | Navbar Sticky and                                    |  ks-html-navbar-full  |  ks-css-navbar-full       |              |
+| Price Widget       | Price widget for products/services                   | ks-html-price-section | ks-css-price-section      |              |
+| Icons and Fonts    | Css main imports initialization                      |                       | ks-css-imports-main       |              |
+| Scroll Up          | Scroll to top button                                 | ks-html-scrollup-full | ks-css-scrollup-full      |              |
+| Social Buttons     | Animated Social button such as GitHub, LinkedIn etc. | ks-html-social        | ks-css-social-center/left |              |
+| Table Crud         | Full crud table with buttons                         | ks-html-table-crud    | ks-css-table-crud         |              |
+|  Text Block        | Block of text centralize                             | ks-html-text-block    |                           |              |
+
 ## Extension Installation
 
 01. Install Visual Studio Code 1.41 or higher
@@ -93,6 +108,8 @@ Alternatively, press `Ctrl`+`Space` (Windows, Linux) or `Cmd`+`Space` (macOS) to
 03. From the current project open terminal in visual studio code and run `npm install ngx-bootstrap`
 04. Inside `angular.json` in the styles section add this `"node_modules/bootstrap/dist/css/bootstrap.min.css"`, above src/styles.css
 05. Inside `angular.json` in the styles section add those lines inside [...]:
+06. Use `ks-css-imports-main` inside style.css file before you start using all the other snippets
+07. Have fun and lets us know if you have any improvments or other suggestions
 
        - `"node_modules/jquery/dist/jquery.min.js",`    
        - `"node_modules/bootstrap/dist/js/bootstrap.min.js"`
