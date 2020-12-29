@@ -103,12 +103,11 @@ Alternatively, press `Ctrl`+`Space` (Windows, Linux) or `Cmd`+`Space` (macOS) to
   - important make sure to install bootstrap for angular.
 
 ## Bootstrap Installation
-01. From the current project open terminal in visual studio code and run `npm install @ng-bootstrap/ng-bootstrap`
+01. From the current project open terminal in visual studio code and run `npm install ngx-bootstrap`
 02. From the current project open terminal in visual studio code and run `npm install bootstrap jquery`
-03. From the current project open terminal in visual studio code and run `npm install ngx-bootstrap`
-04. Inside `angular.json` in the styles section add this `"node_modules/bootstrap/dist/css/bootstrap.min.css",` above src/styles.css
-05. Inside `angular.json` in the styles section add those lines inside [...]:
+03. Inside `angular.json` in the styles section add this `"node_modules/bootstrap/dist/css/bootstrap.min.css",` above src/styles.css
+04. Inside `angular.json` in the styles section add those lines inside [...]:
        - `"node_modules/jquery/dist/jquery.min.js",`    
        - `"node_modules/bootstrap/dist/js/bootstrap.min.js"`
-06. Use `ks-css-imports-main` inside style.css file before you start using all the other snippets
-07. Have fun and lets us know if you have any improvments or other suggestions
+05. Use `ks-css-imports-main` inside style.css file before you start using all the other snippets
+06. Have fun and lets us know if you have any improvments or other suggestions
