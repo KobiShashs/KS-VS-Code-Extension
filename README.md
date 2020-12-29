@@ -77,11 +77,22 @@ Alternatively, press `Ctrl`+`Space` (Windows, Linux) or `Cmd`+`Space` (macOS) to
 | ---------------------------- | -------------------------------------------------------- |
 | `ksa-MySqlConfiguration`     | Application properties mysql configuration code          |
 
-## Installation
+## Extension Installation
 
-1. Install Visual Studio Code 1.41 or higher
-1. Launch Code
-1. From the command palette `Ctrl`-`Shift`-`P` (Windows, Linux) or `Cmd`-`Shift`-`P` (OSX)
-1. Select `Install Extension`
-1. Choose the extension
-1. Reload Visual Studio Code
+01. Install Visual Studio Code 1.41 or higher
+02. Launch Code
+03. From the command palette `Ctrl`-`Shift`-`P` (Windows, Linux) or `Cmd`-`Shift`-`P` (OSX)
+04. Select `Install Extension`
+05. Choose the extension
+06. Reload Visual Studio Code
+  - important make sure to install bootstrap for angular.
+
+## Bootstrap Installation
+01. From the current project open terminal in visual studio code and run `npm install @ng-bootstrap/ng-bootstrap`
+02. From the current project open terminal in visual studio code and run `npm install bootstrap jquery`
+03. From the current project open terminal in visual studio code and run `npm install ngx-bootstrap`
+04. Inside `angular.json` in the styles section add this `"node_modules/bootstrap/dist/css/bootstrap.min.css"`, above src/styles.css
+05. Inside `angular.json` in the styles section add those lines inside [...]:
+
+       - `"node_modules/jquery/dist/jquery.min.js",`    
+       - `"node_modules/bootstrap/dist/js/bootstrap.min.js"`
