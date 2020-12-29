@@ -1,5 +1,7 @@
 # Change Log
 All notable changes to the "ksSnippets" extension will be documented in this file.
+## [0.1.4]
+- Small bug fixes
 ## [0.1.3]
 - Added more Html/Css/TypeScript snippets
 ## [0.1.2]
