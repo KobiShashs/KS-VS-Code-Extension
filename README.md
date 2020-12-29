@@ -93,5 +93,5 @@ Alternatively, press `Ctrl`+`Space` (Windows, Linux) or `Cmd`+`Space` (macOS) to
 03. From the current project open terminal in visual studio code and run `npm install ngx-bootstrap`
 04. Inside `angular.json` in the styles section add this `"node_modules/bootstrap/dist/css/bootstrap.min.css"`, above src/styles.css
 05. Inside `angular.json` in the styles section add those lines inside []:
-  - `"node_modules/jquery/dist/jquery.min.js",`    
-  - `"node_modules/bootstrap/dist/js/bootstrap.min.js"`
+       - `"node_modules/jquery/dist/jquery.min.js",`    
+       - `"node_modules/bootstrap/dist/js/bootstrap.min.js"`
