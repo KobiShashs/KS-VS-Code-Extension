@@ -106,7 +106,7 @@ Alternatively, press `Ctrl`+`Space` (Windows, Linux) or `Cmd`+`Space` (macOS) to
 01. From the current project open terminal in visual studio code and run `npm install ngx-bootstrap`
 02. From the current project open terminal in visual studio code and run `npm install bootstrap jquery`
 03. Inside `angular.json` in the styles section add this `"node_modules/bootstrap/dist/css/bootstrap.min.css",` above src/styles.css
-04. Inside `angular.json` in the styles section add those lines inside [...]:
+04. Inside `angular.json` in the scripts section add those lines inside [...]:
        - `"node_modules/jquery/dist/jquery.min.js",`    
        - `"node_modules/bootstrap/dist/js/bootstrap.min.js"`
 05. Use `ks-css-imports-main` inside style.css file before you start using all the other snippets
