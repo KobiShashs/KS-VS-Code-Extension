@@ -1,5 +1,7 @@
 # Change Log
 All notable changes to the "ksSnippets" extension will be documented in this file.
+## [0.1.5]
+- Minor bug fixes and Vertical Navbar
 ## [0.1.4]
 - Small bug fixes
 ## [0.1.3]
